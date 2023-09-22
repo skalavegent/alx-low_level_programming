@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 
 /**
  * _strcat - contatenates two strings
@@ -13,7 +13,7 @@ char *_strcat(char *dest, char *src)
 	int i;
 	int j;
 
-	i = 0
+	i = 0;
 	while (dest[i] != '\0')
 	{
 		i++;
